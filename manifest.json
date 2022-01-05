@@ -3,14 +3,6 @@
     "name": "Start Page",
     "version": "1.0.0",
     "description": "An extension for a custom start page.",
-    "permissions": [
-      "storage"
-    ],
-    "optional_permissions": [
-      "<all_urls>",
-      "webRequest",
-      "webRequestBlocking"
-    ],
     "chrome_url_overrides" : {
       "newtab": "index.html"
     }
